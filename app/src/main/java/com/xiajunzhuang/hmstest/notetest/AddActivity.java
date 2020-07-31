@@ -173,6 +173,7 @@ public class AddActivity extends BaseActivity implements View.OnClickListener,
                     showAskDialog();
                 } else {
                     setNoticeDate();
+
                 }
                 break;
 //            case R.id.btn_edit_menu_upcoming:

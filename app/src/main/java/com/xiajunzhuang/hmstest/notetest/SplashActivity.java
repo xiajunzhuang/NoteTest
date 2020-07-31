@@ -12,7 +12,6 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle paramBundle) {
         super.onCreate(paramBundle);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);//隐藏状态栏
-//        getSupportActionBar().hide();
         setContentView(R.layout.activity_splash);
         (new Thread() {
             public void run() {

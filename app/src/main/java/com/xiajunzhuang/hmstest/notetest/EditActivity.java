@@ -23,14 +23,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
-/**
- * create_by Android Studio
- *
- * @author zouguo0212@
- * @package_name fun.zzti
- * @description
- * @date 2018/10/27 13:20
- */
+
 public class EditActivity extends BaseActivity implements View.OnClickListener{
 
     private final static String TAG = "AddActivity";

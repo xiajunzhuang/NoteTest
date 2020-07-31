@@ -91,6 +91,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         recyclerview.setLayoutManager(gridLayoutManager);
         recyclerview.setItemAnimator(new DefaultItemAnimator());
         recyclerview.setAdapter(myRecordAdapter);
+
         // 设置点击监听
         myRecordAdapter.setOnItemClickListener(new OnItemClickListener() {
 
